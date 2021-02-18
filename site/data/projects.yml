@@ -1,0 +1,16 @@
+name: Projects
+source:
+  - icon: fab fa-github
+    name: m52l5r.com
+    description: This site.
+    url: https://github.com/mattlorimor/m5wl5r.com
+
+  - icon: fab fa-github
+    name: rusty-cvssv3
+    description: I wanted to get my feet wet with Rust. Writing a CVSS 3.0 library was how I ended up practicing.
+    url: https://github.com/mattlorimor/rusty-cvssv3
+
+  - icon: fab fa-github
+    name: ProbabilisticDataStructures
+    description: Back in 2016, there wasn't a decent public probabilistic data structures library for C#. I ported Tyler Treat's BoomFilters library.
+    url: https://github.com/mattlorimor/ProbabilisticDataStructures

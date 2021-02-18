@@ -1,4 +1,43 @@
 baseURL = "https://m5wl5r.com/"
-languageCode = "en-us"
-title = "m5wl5r"
+languageCode = "en-US"
+title = "Matthew Lorimor"
+# Enable comments by entering your Disqus shortname
+#disqusShortname = ""
 theme = "sustain"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+  avatar = "img/the-cheat.png"
+  author = "Matthew Lorimor"
+  description = "Describe your website"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[params.social]
+  Keybase       = "matthewlorimor"
+  Github        = "mattlorimor"
+  Email         = ""
+  Twitter       = "mattlorimor"
+  LinkedIn      = "mattlorimor"
+  #RSS           = "/blog/index.xml"
+
+## Main Menu
+# [[menu.main]]
+#   name = "blog"
+#   weight = 100
+#   identifier = "blog"
+#   url = "/blog/"
+[[menu.main]]
+  name = "projects"
+  identifier = "projects"
+  weight = 200
+  url = "/projects/"
+# [[menu.main]]
+#   name = "resume"
+#   identifier = "resume"
+#   weight = 300
+#   url = "/resume/"
