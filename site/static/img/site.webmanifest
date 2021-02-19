@@ -1,0 +1,20 @@
+{
+    "name": "m5wl5r",
+    "short_name": "m5wl5r",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#da532c",
+    "background_color": "#da532c",
+    "start_url": "https://m5wl5r.com",
+    "display": "standalone"
+}
