@@ -9,12 +9,12 @@ theme = "sustain"
   post = "/:year/:month/:day/:slug"
 
 [params]
-  avatar = "img/the-cheat.png"
+  avatar = "img/the-cheat.webp"
   author = "Matthew Lorimor"
   description = "Gestures vaguely at all the stuff that is on fire."
 
   # Custom assets can be linked with their paths relative to static/
-  custom_css = ["home.css"]
+  custom_css = ["home.css","font-awesome.all.min.css","bootstrap.min.css"]
   custom_js  = []
 
 [params.social]
