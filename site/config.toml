@@ -11,7 +11,7 @@ theme = "sustain"
 [params]
   avatar = "img/the-cheat.png"
   author = "Matthew Lorimor"
-  description = "Describe your website"
+  description = "Gestures vaguely at all the stuff that is on fire."
 
   # Custom assets can be linked with their paths relative to static/
   custom_css = []
