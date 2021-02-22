@@ -23,7 +23,7 @@
     <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"> -->
     <!-- <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old"> -->
     {{ range .Site.Params.custom_css }}
-      <link rel="stylesheet" href="{{ $.Site.BaseURL}}{{ . }}">
+      <link rel="preload stylesheet" href="{{ $.Site.BaseURL}}{{ . }}" as="style">
     {{ end }}
     {{ `<!--[if lt IE 9]>
 			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
