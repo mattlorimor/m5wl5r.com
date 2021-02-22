@@ -1,5 +1,5 @@
 name: Projects
-source:
+githubrepos:
   - icon: fab fa-github
     name: m5wl5r.com
     description: This site.
@@ -14,3 +14,38 @@ source:
     name: ProbabilisticDataStructures
     description: Back in 2016, there wasn't a decent public probabilistic data structures library for C#. I ported Tyler Treat's BoomFilters library.
     url: https://github.com/mattlorimor/ProbabilisticDataStructures
+osscontribs:
+  - icon: fab fa-github
+    name: AWS Bottlerocket Scanning Advocacy From a FedRAMP Lens
+    description: Comments, from a FedRAMP perspective, to the AWS Bottlerocket team explaining why one might have the need to run Amazon Inspector against it.
+    url: https://github.com/bottlerocket-os/bottlerocket/issues/848#issuecomment-684170911
+
+  - icon: fab fa-github
+    name: Have I Been Pwned? k-Anonymity Conformity
+    description: Updated repos to utilize a newer version of Troy Hunt's password checker when it came out.
+    url: https://github.com/search?q=author%3Amattlorimor+troy&type=issues
+  
+  - icon: fab fa-github
+    name: Insecure Random in Sprig
+    description: Modified Sprig's random string generators to use a better source of random.
+    url: https://github.com/Masterminds/sprig/pull/142
+
+  - icon: fab fa-github
+    name: Nessus Docker Container non-Root User
+    description: Added the ability for the Nessus Docker container to run Nessus as a non-Root user in order to adhere to least privilege requirements.
+    url: https://github.com/SteveMcGrath/docker-nessus_scanner/pull/3
+
+  - icon: fab fa-github
+    name: Slim Down azure-cli Docker Image
+    description: Noticed the azure-cli image was larger than it needed to be and fixed it.
+    url: https://github.com/Azure/azure-cli/issues/11396
+
+  - icon: fab fa-github
+    name: Better S3 Publicity Detection in henry
+    description: Noticed that henry was missing an important publicity detection with regards to S3 buckets and fixed it.
+    url: https://github.com/willh/henry/pull/1
+
+  - icon: fab fa-github
+    name: Metasploit Installation Tweak
+    description: Fixed Metasploit installation on Amazon Linux.
+    url: https://github.com/rapid7/metasploit-omnibus/pull/68

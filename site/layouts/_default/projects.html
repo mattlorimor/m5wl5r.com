@@ -1,0 +1,37 @@
+{{ define "main" }}
+  <!-- Header -->
+  {{ partial "header" . }}
+  <div class="container">
+    <h4 class="my-5">{{ .Site.Data.projects.name }}</h4>
+    <section id="github-repos">
+      <div class="panel">
+        <div class="panel-body">
+            <div style="font-weight: bold; font-size: x-large; text-decoration: underline;">
+                GitHub Repos
+            </div>
+          {{ range $el := .Site.Data.projects.githubrepos }}
+            <h5>
+              <i class="{{ .icon }}"></i>&nbsp;&nbsp;
+              <b><a href="{{ .url }}">{{ $el.name }}</a></b>&nbsp;-&nbsp;{{ $el.description }}
+            </h5>
+          {{ end }}
+        </div>
+      </div>
+    </section>
+    <section id="oss-contributions">
+        <div class="panel">
+          <div class="panel-body">
+              <div style="font-weight: bold; font-size: x-large; text-decoration: underline;">
+                  Assorted Open Source Contributions
+              </div>
+            {{ range $el := .Site.Data.projects.osscontribs }}
+              <h5>
+                <i class="{{ .icon }}"></i>&nbsp;&nbsp;
+                <b><a href="{{ .url }}">{{ $el.name }}</a></b>&nbsp;-&nbsp;{{ $el.description }}
+              </h5>
+            {{ end }}
+          </div>
+        </div>
+      </section>
+  </div>
+{{ end }}
