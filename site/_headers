@@ -1,2 +1,11 @@
+# Don't index dev pages
+https://:m5wl5r-com.pages.dev/*
+  X-Robots-Tag: noindex
+
+# Security
 /*
-  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Origin: https://m5wl5r.com https://www.m5wl5r.com
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+  Content-Security-Policy: script-src 'self'; frame-ancestors 'none';
