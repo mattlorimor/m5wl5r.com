@@ -1,3 +1,7 @@
-# Vanilla JavaScript App
+# m5wl5r.com
 
-This repo is used as a starter for a _very basic_ HTML web application using no front-end frameworks.
+Houses the code for https://m5wl5r.com.
+
+Made with [Hugo](https://gohugo.io/).
+
+Hosted by [Cloudflare Pages](https://pages.cloudflare.com/).
