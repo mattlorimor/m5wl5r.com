@@ -8,4 +8,4 @@ https://:m5wl5r-com.pages.dev/*
   X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
   Referrer-Policy: no-referrer
-  Content-Security-Policy: script-src 'self'; frame-ancestors 'none';
+  Content-Security-Policy: default-src 'self'; frame-ancestors 'none';
