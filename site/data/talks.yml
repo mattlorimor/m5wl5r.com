@@ -2,5 +2,5 @@ name: Talks
 talks:
   - icon: fa fa-bullhorn
     name: BSidesLV 2022 - Whose encryption key is this? It’s a secret to everybody.
-    description: Utilizing providers such as Amazon Web Services, Google Cloud Platform, and Microsoft Azure carries a level of shared responsibility. In this talk, we share a cautionary tale of how that shared responsibility can fail in a way you may never have expected, and how following best practices can lead you to a worse place than you were before. We’ll discuss how using an AWS-managed service in a common configuration can result in your log data being silently encrypted with a “rogue” encryption key, rendering your data completely inaccessible and outside of your control.
-    url: https://bsideslv.org/talks#1268973
+    description: "Utilizing providers such as Amazon Web Services, Google Cloud Platform, and Microsoft Azure carries a level of shared responsibility. In this talk, we share a cautionary tale of how that shared responsibility can fail in a way you may never have expected, and how following best practices can lead you to a worse place than you were before. We’ll discuss how using an AWS-managed service in a common configuration can result in your log data being silently encrypted with a “rogue” encryption key, rendering your data completely inaccessible and outside of your control. The link is directly to the YouTube timestamp. If that doesn't work, it starts at 4:31:16."
+    url: https://www.youtube.com/watch?v=TvdIhe0MZ08&t=16275s
