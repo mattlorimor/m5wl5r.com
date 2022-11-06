@@ -20,6 +20,7 @@ theme = "sustain"
 [params.social]
   Keybase       = "matthewlorimor"
   Github        = "mattlorimor"
+  Mastodon      = "@mattlorimor"
   Email         = ""
   Twitter       = "mattlorimor"
   LinkedIn      = "mattlorimor"
