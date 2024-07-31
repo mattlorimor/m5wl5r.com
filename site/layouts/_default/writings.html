@@ -1,0 +1,22 @@
+{{ define "main" }}
+  <!-- Header -->
+  {{ partial "header" . }}
+  <div class="container">
+    <h4 class="my-5">{{ .Site.Data.writings.name }}</h4>
+    <section id="writings">
+      <div class="panel">
+        <div class="panel-body">
+            <div style="font-weight: bold; font-size: x-large; text-decoration: underline;">
+                Writings
+            </div>
+          {{ range $el := .Site.Data.writings.writings }}
+            <h5>
+              <i class="{{ .icon }}"></i>&nbsp;&nbsp;
+              <b><a href="{{ .url }}">{{ $el.name }}</a></b>&nbsp;-&nbsp;{{ $el.description }}
+            </h5>
+          {{ end }}
+        </div>
+      </div>
+    </section>
+  </div>
+{{ end }}
