@@ -4,3 +4,7 @@ writings:
     name: Striving for Zero CVEs is Worth the Effort
     description: "Not too many years ago, attempting to attain zero CVEs in any part of your environment would have seemed silly. That is no longer the case."
     url: https://www.scipress.io/post/DEY40lnxckdTRKXCayew/striving-for-zero-cves-is-worth-the-effort
+  - icon: fa fa-pencil-alt
+    name: What the Hell is FDR Social Dev Keys V2 App?
+    description: It's Auth0. More details under the link.
+    url: https://www.scipress.io/post/Xg4Hau9JXvGPCvl71N3G/what-the-hell-is-fdr-social-dev-keys-v2-app
